@@ -3,8 +3,8 @@
         <link rel="stylesheet" type="text/css" href="./style/style.css">
     </head>
     <body>
-        <?php include_once ("header.php"); ?>
-
-        <?php include ("footer.php"); ?>
+        <?php 
+        include ("header.php");
+         ?>
     </body>
 </html>
