@@ -21,20 +21,20 @@
   <form action="contactform.php" method="post" id="contact_form">
     <div class="name">
       <label for="name"></label>
-      <input type="text" placeholder="My name is" name="name" id="name_input" required>
+      <input type="text" placeholder="Full Name" name="name" id="name_input" required>
     </div>
     <div class="email">
       <label for="email"></label>
-      <input type="email" placeholder="My e-mail is" name="email" id="email_input" required>
+      <input type="email" placeholder="E-mail" name="email" id="email_input" required>
     </div>
     <div class="telephone">
       <label for="name"></label>
-      <input type="text" placeholder="My number is" name="telephone" id="telephone_input" required>
+      <input type="text" placeholder="Phone Number" name="telephone" id="telephone_input" required>
     </div>
     <div class="subject">
       <label for="subject"></label>
       <select placeholder="Subject line" name="subject" id="subject_input" required>
-        <option disabled hidden selected>Subject line</option>
+        <option disabled hidden selected>Subject</option>
         <option>About the products</option>
         <option>About the delivery</option>
         <option>About the warrenty</option>
@@ -42,7 +42,7 @@
     </div>
     <div class="message">
       <label for="message"></label>
-      <textarea name="message" placeholder="I'd like to chat about" id="message_input" cols="30" rows="5" required></textarea>
+      <textarea name="message" placeholder="Your Message" id="message_input" cols="30" rows="5" required></textarea>
     </div>
     <div class="submit">
       <input type="submit" value="Send Message" id="form_button" />
