@@ -1,5 +1,6 @@
+<link rel="stylesheet" href="./style/footer.css">
 <!-- Copyright -->
 
-<p>
-&copy; <?php echo date ('Y'); ?>
-</p>
+<div class="footer">
+    <p>&copy; Banana Studios <?php echo date ('Y'); ?><p>
+</div>
