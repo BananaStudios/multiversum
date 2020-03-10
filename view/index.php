@@ -1,22 +1,13 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
-    </head>
-    <body>
+<?php
 
         <?php 
 include("./header.php");
 include("../dbase/config.php");
 include("../dbase/dbopen.php");
+require("header.php");
 
-$query = "SELECT name, ";
-$query .= "description, ";
-$query .= "price ";
-$query .= "image ";
-$query .= "FROM producten ";
+require("content.php");
 
-$preparedquery = $dbaselink->prepare($query);
-$preparedquery->execute();
 
 if($preparedquery->errno) {
   echo "Fout bij het uitvoeren van commando";
@@ -43,3 +34,4 @@ include("./footer.php");
          ?>
     </body>
 </html>
+?>
