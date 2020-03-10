@@ -1,4 +1,7 @@
-
+<html>
+<link rel="stylesheet" type="text/css" href="./style/content.css">
+</html>
+        
         <?php 
             
             include("../dbase/config.php");
@@ -25,7 +28,7 @@
                   <br> <br>
                 <?php
                   echo $row["name"] . "<br>" . "" . $row["description"] . "<br>" . "<br>";
-                  echo "€" . $row["price"] . "<br>";
+                  echo "€" . $row["price"] . "<br>" . "<br>";
                 };
             
               }
