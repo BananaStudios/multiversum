@@ -1,6 +1,3 @@
-
-<span> Multiversum</span>
-
 <link rel="stylesheet" type="text/css" href="style/style.css">
 
 <nav class="navbar">
@@ -15,7 +12,7 @@
                         <a href="#portfolio">Portfolio</a>
                     </li>
                    <li>
-                        <a href="#contact">Contact</a>
+                        <a href="contact.php">Contact</a>
                     </li>
                 </ul>
     </nav>
