@@ -21,6 +21,16 @@
         </li>
         <li class="active">
           <a href="contact.php">Contact</a>
+          <a href="#">Home</a>
+        </li>
+        <li>
+          <a href="#">Products</a>
+        </li>
+        <li>
+          <a href="#">Services</a>
+        </li>
+        <li class="active">
+          <a href="./contact.php">Contact</a>
         </li>
       </ul>
     </nav>
