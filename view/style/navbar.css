@@ -106,3 +106,13 @@
 .navbar-inverse .navbar-nav>.dropdown>a:hover .caret {
   border-bottom-color: #FFFFFF
 }
+
+@media (min-width: 1000px){
+  .navbar-collapse .collapse {
+    display: block!important;
+    height: auto!important;
+    padding-bottom: 0;
+    overflow: visible!important;
+    background-color: #999;
+  }
+}
