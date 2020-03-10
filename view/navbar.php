@@ -3,6 +3,10 @@
 
 <nav class="navbar" role="navigation">
                 <ul class="nav navbar-nav navbar-right">
+<link rel="stylesheet" type="text/css" href="style/style.css">
+
+<nav class="navbar">
+                <ul class="navbar">
                     <li>
                         <a href="#home">Home</a>
                     </li>
