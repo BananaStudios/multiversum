@@ -1,44 +1,8 @@
-<html>
-    <head>
-        <link rel="stylesheet" type="text/css" href="./style/style.css">
-    </head>
-    <body>
+<?php
 
-        <?php 
-            
-include("../dbase/config.php");
-include("../dbase/dbopen.php");
+require("header.php");
 
-$query = "SELECT name, ";
-$query .= "description, ";
-$query .= "price ";
-$query .= "image ";
-$query .= "FROM producten ";
-
-$preparedquery = $dbaselink->prepare($query);
-$preparedquery->execute();
-
-if($preparedquery->errno) {
-  echo "Fout bij het uitvoeren van commando";
-} else {
-  $result = $preparedquery->get_result();
-  
-  if($result->num_rows === 0) {
-    echo "Geen rijen gevonden";
-  } else {
-    
-    while($row = $result->fetch_assoc()) {
-      echo $row["name"] . " " . $row["description"] . "<br>" . "<br>";
-    };
-
-  }
-}
-
-$preparedquery->close();
+require("content.php");
 
 
-include("../dbase/dbclose.php");
-
-         ?>
-    </body>
-</html>
+?>
