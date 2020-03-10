@@ -28,7 +28,7 @@
                   <br> <br>
                 <?php
                   echo $row["name"] . "<br>" . "" . $row["description"] . "<br>" . "<br>";
-                  echo "€" . $row["price"] . "<br>" . "<br>";
+                  echo "€" . $row["price"] . "<br>";
                 };
             
               }
