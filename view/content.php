@@ -28,6 +28,8 @@
                   <br> <br>
                 <?php
                   echo $row["name"] . "<br>" . "" . $row["description"] . "<br>" . "<br>";
+                  // echo "<a href='details.php?id=" . $row['name'] . " '>" .$row['name']. "</a>"."<br>";
+                  // echo $row["description"] . "<br>" . "<br>";
                   echo "€" . $row["price"] . "<br>" . "<br>";
                 };
             
@@ -40,3 +42,5 @@
             include("../dbase/dbclose.php");
             
                      ?>
+
+<button><a href="addform.php">toevoegen</a></button>

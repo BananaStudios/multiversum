@@ -23,14 +23,6 @@
         <li>
           <a href="#">Home</a>
         </li>
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <b class="caret"></b></a>
-          <ul class="dropdown-menu">
-            <li><a href="#">Mission</a></li>
-            <li><a href="#">Vision</a></li>
-            <li><a href="#">Careers</a></li>
-          </ul>
-        </li>
         <li>
           <a href="#">Products</a>
         </li>
@@ -38,7 +30,7 @@
           <a href="#">Services</a>
         </li>
         <li class="active">
-          <a href="#">Contact</a>
+          <a href="./contact.php">Contact</a>
         </li>
       </ul>
     </nav>
