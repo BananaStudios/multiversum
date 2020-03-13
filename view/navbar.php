@@ -17,7 +17,7 @@
     <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
       <ul class="nav navbar-nav navbar-right">
         <li>
-          <a href="#">Home</a>
+          <a href="./index.php">Home</a>
         </li>
         <li class="active">
           <a href="./contact.php">Contact</a>
