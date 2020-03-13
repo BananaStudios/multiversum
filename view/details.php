@@ -26,6 +26,7 @@ if ($result-> num_rows === 0) {
 		echo "<br>";
 		echo $row['id'] . " ";
 		echo $row['name'] . " ";
+		echo $row['price'] . "";
 		echo $row['description'] . "<br>";
 		}
 
