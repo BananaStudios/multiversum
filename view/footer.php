@@ -4,3 +4,5 @@
 <div class="footer">
     <p>&copy; Banana Studios <?php echo date ('Y'); ?><p>
 </div>
+
+</body>
