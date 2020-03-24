@@ -13,6 +13,8 @@
       <br>
       <input type="text" name="description" placeholder="description">
       <br>
+      <input type="text" name="price" placeholder="price">
+      <br>
       <input type="text" name="resolutie" placeholder="resolutie">
       <br>
       <input type="text" name="refreshrate" placeholder="refreshrate">
