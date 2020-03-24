@@ -1,2 +1,0 @@
-# multiversum
-gizem is cool
