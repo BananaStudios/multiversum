@@ -1,5 +1,3 @@
 <?php
 
 require("navbar.php");
-
-?>

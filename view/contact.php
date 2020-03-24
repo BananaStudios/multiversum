@@ -1,3 +1,9 @@
+<?php
+
+require("header.php");
+
+?>
+
 <!DOCTYPE html>
 <html lang="en" >
 <head>
@@ -52,3 +58,9 @@
 
 </body>
 </html>
+
+<?php
+
+require("footer.php");
+
+?>

@@ -1,5 +1,5 @@
 <!-- Copyright -->
 
 <p>
-&copy; <?php echo date ('Y'); ?>
+Bananastudios &copy; <?php echo date ('Y'); ?>
 </p>
