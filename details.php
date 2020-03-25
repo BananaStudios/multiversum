@@ -29,6 +29,8 @@ require("header.php");
       echo "Geen rijen gevonden";
     } else {
       while($row = $result->fetch_assoc()) {?>
+      <div style="float: left; width: 25%; padding: 0 10px; ">  
+        <div style="margin: 0 5px;">
             <img class="mx-auto" src="<?php echo $row["image"]?>" height="100px">
         <?php echo "<br>" . "<br>" . "Product : " . $row["name"] . "<br>" . "Omschrijving: " . $row["description"] . "<br>" . "Prijs: " . "€" 
         . $row["price"] . "<br>" . "Resolutie: " . $row["resolutie"] . "<br>" . "Refresh Rate: " . $row["refreshrate"] . "<br>" . 
